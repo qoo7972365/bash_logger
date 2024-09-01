@@ -9,7 +9,7 @@ import (
 	"sync"
 )
 
-const tgAPIToken = "666666666:xxxxxxxxxxxxx"
+const tgAPIToken = "666666666:xxxxxxxx"
 const tgUserID = "xxxxxxxxx"
 
 func sendToTelegram(message string, wg *sync.WaitGroup) {
